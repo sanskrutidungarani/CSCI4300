@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server
+
+click terminal tab on top of vs code
+
+then type:
 
 ```bash
 npm install
