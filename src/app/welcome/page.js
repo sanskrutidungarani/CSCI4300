@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import NavBar from "../components/navbar2";
+import NavBar from "../components/header-auth";
 import Meals from "../components/items";
 import Button from "../components/button";
 
