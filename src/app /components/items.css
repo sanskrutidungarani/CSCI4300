@@ -1,0 +1,37 @@
+.meal-block-item { 
+    display: flex;
+    flex-direction: column;
+    background-color: #52329c68;
+    color: #292929;
+    border: 5px black solid;
+    border-radius: 50px;
+    margin: 20px;
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.meal-block-item h2{
+    color: black;
+    margin: 3px;
+    text-align: center;
+}
+
+.meal-img {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+  border-radius: 25%;
+}
+
+
+.meal-info p {
+  margin: 5px;
+  font-weight: normal;
+  color: #52329c;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
