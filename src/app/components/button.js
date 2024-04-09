@@ -2,7 +2,7 @@ import './button.css'
 
 const Button = () => {
   return (
-    <button>Add a new plan!</button>
+    <button type='submit'>Add New Plan</button>
   )
 };
 
