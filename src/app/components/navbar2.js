@@ -15,7 +15,7 @@ const headermain = () =>{
             </div>
             <div className="Header-Container-Right">
                 <a>Welcome John Doe</a>
-                <div className='btn'><Link href='/'>Logout</Link></div>
+                <button><Link href='/'>Logout</Link></button>
                 
             </div>
         </div>

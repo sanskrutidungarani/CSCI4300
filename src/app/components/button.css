@@ -1,5 +1,5 @@
 button[type="submit"] {
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0.888);
     font-size: 20px;
     color: black;
     padding: 10px 20px;
@@ -10,7 +10,7 @@ button[type="submit"] {
   }
 
   button[type="submit"]:hover {
-    background-color: rgba(128, 0, 128, 0.701);
+    background-color: rgba(128, 0, 128, 0.611);
    
   }
   

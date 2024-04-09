@@ -1,7 +1,7 @@
 "use client" // using client routing in next.js
 import React, { useState } from 'react';
 import './add-plan.css';
-import NavBar from "../components/navbar2";
+import NavBar from "../../components/navbar2";
 
 const AddItem = () => {
   const [newItem, setNewItem] = useState({
