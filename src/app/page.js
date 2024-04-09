@@ -4,7 +4,7 @@ import React from "react";
 import Header from "./components/navbar.js";
 import NavBar from "./components/navbar.js"
 
-import './components/home-unauth.css'
+import './home-unauth.css';
 
 
 export default function Home() {
