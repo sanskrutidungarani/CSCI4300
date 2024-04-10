@@ -6,14 +6,19 @@ import Meals from "../components/items";
 import Button from "../components/button";
 
 
+
+
 export default function Home() {
   return (
 
-      <div className="home-flex-container">
+      <div>
        <NavBar />
 
        <Button />
       
+    
+       <div className="home-flex-container">
+
         <Meals 
         title = "meal plan 1"
         img = "https://dining.uga.edu/_resources/images/snelling_400x267.png"
@@ -21,7 +26,8 @@ export default function Home() {
         carbs = "56"
         protein = "128"
         />
-
+  
+   
         <Meals 
         title = "meal plan 2"
         img = "https://dining.uga.edu/_resources/images/WT_Bolton-736_400x267.jpg"
@@ -29,6 +35,7 @@ export default function Home() {
         carbs = "56"
         protein = "138"
         />
+ 
 
         <Meals 
         title = "meal plan 3"
@@ -37,8 +44,9 @@ export default function Home() {
         carbs = "36"
         protein = "18"
         />
-
-   
+       </div>
+     
+  
       </div>
 
 

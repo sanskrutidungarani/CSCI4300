@@ -14,9 +14,10 @@ const headermain = () =>{
                 <h1>Know What You Eat</h1>
             </div>
             <div className="Header-Container-Right">
-                <p>Welcome John Doe</p>
-                <button><Link href='/'>Logout</Link></button>
-                
+                <p>Welcome, John Doe</p>
+                <button>
+                    <Link href='/'>Log Out</Link>
+                </button>
             </div>
         </div>
     );
