@@ -1,6 +1,7 @@
 import React from "react";
-import Items from "items";
-import Card from "card";
+import Meals from "./items";
+import Card from "./card";
+import './itemslist.css';
 
 
 
@@ -9,7 +10,7 @@ const ItemList = ({items}) => {
         <div>
             <Card className = "items">
             {items.map((item, index) => (
-                <User
+                <Meals
                     key={index}
                     title={item.title} 
                     calories={item.calories}
