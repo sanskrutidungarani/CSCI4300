@@ -1,17 +1,23 @@
-.meal-block-item { 
-    display: flex;
-    flex-direction: column;
-    background-color: #52329c68;
-    color: #292929;
-    border: 5px black solid;
-    border-radius: 50px;
-    margin: 20px;
-    width: 20rem;
-    height: 20rem;
-
+.meal-item{
+  margin: 20px;
+  width: 20rem;
+  height: 20rem;
+  flex: 1;
 }
 
-.meal-block-item h2{
+li{
+  display: flex;
+  flex-direction: column;
+  background-color: #52329c68;
+  color: #292929;
+  border: 5px black solid;
+  border-radius: 50px;
+  margin: 20px;
+  width: 20rem;
+  height: 20rem;
+}
+
+h2{
     color: black;
     margin: 3px;
     text-align: center;

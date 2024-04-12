@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Header from "./components/navbar.js";
-import NavBar from "./components/navbar.js"
+import Header from "./components/header-unauth.js";
+import NavBar from "./components/header-unauth.js"
 
 import './home-unauth.css';
 
