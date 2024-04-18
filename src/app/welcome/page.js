@@ -1,8 +1,8 @@
 "use client";
 import React, {useState} from "react";
-import NavBar from "../components/header-auth";
+import Header from "../components/header-auth";
+
 import Meals from "../components/items";
-import Button from "../components/button";
 
 export default function Home() {
 
@@ -11,9 +11,11 @@ export default function Home() {
 
   <div>
 
-       <NavBar />
+       <Header />
 
-       <Button />
+
+
+      
    
    
         <Meals 

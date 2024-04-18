@@ -4,7 +4,9 @@ import './items.css';
 const items = props => {
     return (    
 
+ 
     <div className='meal-item'>
+   
         <li key={props.id}>
              <h2>{props.title}</h2>
              <img src={props.img} className="meal-img" alt= "meal image" />
@@ -13,6 +15,7 @@ const items = props => {
             <p>Carbs: {props.carbs} g</p>
             <p>Protein: {props.protein} g</p>
         </div>
+            <button>View</button>
         </li>
     </div>
 

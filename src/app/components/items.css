@@ -1,8 +1,9 @@
 .meal-item{
+  display: flex;
+  flex-direction: row;
   margin: 20px;
   width: 20rem;
   height: 20rem;
-  flex: 1;
 }
 
 li{
@@ -40,4 +41,13 @@ h2{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 20px;
+}
+
+button{
+  width: 4rem;
+  height: inherit;
+  margin: 1rem auto;
+  background-color:white ;
+  border: black solid;
+  border-radius: 50px;
 }

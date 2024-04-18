@@ -25,10 +25,6 @@ const formtitle = (props) => {
 
     return(
         <div>
-
-          <h2>Food</h2>
-
-
             <form onSubmit={handleSubmit}>
             <label htmlFor="name">Food Name:</label>
             <input
@@ -41,7 +37,7 @@ const formtitle = (props) => {
             />
             <br />
 
-            <label htmlFor="portion">Portion:</label>
+            <label htmlFor="portion">Portion(1 cup, 100g, 1):</label>
             <input
                 type="string"
                 id="portion"
@@ -85,6 +81,11 @@ const formtitle = (props) => {
             <br />
 
             </form>
+
+            <div className='flex-button'>
+                <button >Add to Meal Plan</button>
+                <button type='submit'>Done</button>
+            </div>
         </div>
         );
     };
