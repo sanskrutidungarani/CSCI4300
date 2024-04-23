@@ -5,7 +5,7 @@ import TodayPlan from "@/app/components/todays-plan";
 import NavbarAuth from "@/app/components/navbarAuth";
 import FoodList from "@/app/components/foodlist";
 import AddFood from "@/app/components/AddFood";
-import AddTitle from "@/app/components/form-title";
+import TitleList from "@/app/components/itemlist";
 
 
 const ViewPlanHome = () => {
@@ -24,8 +24,6 @@ const [foods, setFoods] = useState([]);
         <NavbarAuth />
         <TodayPlan />
 
-
-        <AddTitle />
        <AddFood OnAddFood={addUserHandler} />
 
         <FoodList items = {foods} />

@@ -1,5 +1,5 @@
 import React from "react";
-import Meals from "./items";
+import Title from "./items";
 import Card from "./card";
 import '../styles/itemslist.css';
 
@@ -8,18 +8,14 @@ import '../styles/itemslist.css';
 const ItemList = ({items}) => {
     return(
         <div>
-            <Card className = "items">
+
             {items.map((item, index) => (
-                <Meals
+                <Title
                     key={index}
                     title={item.title} 
-                    calories={item.calories}
                     img={item.img}
-                    carbs={item.carbs}
-                    protein={item.protien}
                 />
             ))}
-            </Card>
         </div>
     );
 };

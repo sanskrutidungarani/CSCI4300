@@ -188,7 +188,6 @@ form {
 
 
   input[type="number"],
-  input[type="text"],
   input[type="link"],
   input[type="text"],
   input[type="email"] {
@@ -200,7 +199,9 @@ form {
   }
 
   .flex-button{
+    width: auto;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   

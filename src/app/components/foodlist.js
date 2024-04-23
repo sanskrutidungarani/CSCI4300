@@ -12,6 +12,7 @@ const ItemList = ({items}) => {
             {items.map((item, index) => (
                 <Food
                     key={index}
+                    title = {item.title}
                     name={item.name} 
                     portion = {item.portion}
                     calories={item.calories}
