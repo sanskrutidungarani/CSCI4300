@@ -6,7 +6,7 @@
   height: 20rem;
 }
 
-li{
+.li{
   display: flex;
   flex-direction: column;
   background-color: #52329c68;
@@ -16,7 +16,7 @@ li{
   margin: 20px;
   width: 20rem;
   height: 20rem;
-
+  list-style: none;
 }
 
 h2{

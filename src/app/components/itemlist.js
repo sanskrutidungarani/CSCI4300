@@ -1,21 +1,22 @@
 import React from "react";
-import Title from "./items";
+import Meals from "./items";
 import Card from "./card";
-import '../styles/itemslist.css';
+
 
 
 
 const ItemList = ({items}) => {
     return(
         <div>
-
+            <Card>
             {items.map((item, index) => (
-                <Title
+                <Meals
                     key={index}
                     title={item.title} 
                     img={item.img}
                 />
             ))}
+            </Card>
         </div>
     );
 };

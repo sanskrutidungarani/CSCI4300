@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/view-plan.css"
+import "../styles/foodlist.css"
 
 
 const Food = (props) => {

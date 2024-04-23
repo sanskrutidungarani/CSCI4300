@@ -1,14 +1,13 @@
 import React from "react";
 import Food from "./food";
 import Card from "./card";
-import '../styles/itemslist.css';
+import '../styles/foodlist.css';
 
 
 
-const ItemList = ({items}) => {
+const FoodList = ({items}) => {
     return(
         <div>
-      
             {items.map((item, index) => (
                 <Food
                     key={index}
@@ -26,4 +25,4 @@ const ItemList = ({items}) => {
     );
 };
 
-export default ItemList;
+export default FoodList;
