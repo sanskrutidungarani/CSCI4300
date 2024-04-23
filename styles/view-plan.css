@@ -1,0 +1,41 @@
+.view-plan li{
+    list-style-type: none;
+}
+
+.view-plan h2{
+    font-size: 3rem;
+    color: green;
+}
+
+.view-plan h1{
+    font-size: 2.3rem;
+    flex: 1;
+    margin: auto;
+}
+
+.food-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    color: #292929;
+    border: 5px black solid;
+    border-radius: 1rem;
+    margin: 2rem;
+    width: auto;
+    height: 4rem;
+}
+
+.food-info p{
+    justify-content: flex-end;   
+    font-size: 2rem;
+    margin: auto 4rem;
+}
+
+.food-info button{
+    font-size: 1.5rem;
+    background-color: rgba(255, 0, 0, 0.822);
+    border: 3px black solid;
+    height: 3rem;
+    margin: auto auto;
+}

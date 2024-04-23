@@ -1,0 +1,17 @@
+.add-item{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.add-item h3{
+  margin: 1rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  color: red;
+}
+  .add-item hr {
+    margin: auto 3rem;
+    color: black;
+  }
