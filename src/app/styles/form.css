@@ -25,7 +25,8 @@ form {
   input[type="number"],
   input[type="link"],
   input[type="text"],
-  input[type="email"] {
+  input[type="email"],
+  input[type="password"] {
     width: 95%;
     padding: 10px;
     border: 1px solid #ccc;

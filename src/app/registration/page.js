@@ -1,10 +1,13 @@
 'use client'
 
 import React from "react";
-import RegistrationForm from '../components/registrationForm.jsx'
+import RegistrationForm from '../components/registrationForm'
 
 export default function(){
     return(
-        <RegistrationForm />
+        <div>
+              <RegistrationForm />
+        </div>
+      
     )
 }

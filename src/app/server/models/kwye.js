@@ -1,27 +1,31 @@
 const mongoose = require('mongoose');
 
 const kwyeSchema = new mongoose.Schema(
-{
-    users: {
-        id: Number,
-        username: String,
-        password: String,
-    },
-    mealplans: [{
-        id: Number,
-        title: String,
-        img: String,
-        foods: [{
-            name: String,
-            portion: String,
-            calories: Number,
-            carbs: Number,
-            protein: Number
-        }]
-    }]
-}
 
+    {
+        users:{
+           id:Number,
+           username:String,
+           password:String
+        },
+        mealplans:[
+           {
+              id:Number,
+              title:String,
+              img:String,
+              foods:[
+                 {
+                    name:String,
+                    portion:String,
+                    calories:Number,
+                    carbs:Number,
+                    protein:Number
+                 }
+              ]
+           }
 
+        ]
+    }
 );
 
 module.exports = KWYE = mongoose.model('kwye', kwyeSchema);

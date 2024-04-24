@@ -4,13 +4,15 @@ const bodyParser = require('body-parser');
 
 const KWYE = require('../../models/kwye.js');
 
+// Apply JSON body parsing middleware for all routes in this router
+router.use(bodyParser.json());
 
 // GET a specific car by ID
 router.get('/:id', (req, res) => {
     KWYE.findById(req.params.id)
         .then((kwye) => {
             if (!kwye) {
-                return res.status(404).json({ noitemfound: 'No Item Found' });
+                return res.status(404).json({ error: 'Item not found' });
             }
             res.json(kwye);
         })
@@ -25,14 +27,14 @@ router.get('/', (req, res) => {
 });
 
 // POST a new car
-router.post('/', bodyParser.json(), (req, res) => {
+router.post('/', (req, res) => {
     KWYE.create(req.body)
         .then((kwye) => res.status(201).json({ msg: 'Item added Successfully', kwye }))
         .catch((err) => res.status(400).json({ error: err.message }));
 });
 
 // UPDATE a car by ID
-router.put('/:id', bodyParser.json(), (req, res) => {
+router.put('/:id', (req, res) => {
     KWYE.findByIdAndUpdate(req.params.id, req.body, { new: true })
         .then((kwye) => {
             if (!kwye) {
