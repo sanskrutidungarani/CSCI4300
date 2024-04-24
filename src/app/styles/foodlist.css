@@ -1,41 +1,60 @@
-.view-plan li{
-    list-style-type: none;
+/* General Styles for Plan List */
+.view-plan li {
+    list-style-type: none; 
 }
 
-.view-plan h2{
-    font-size: 3rem;
-    color: green;
+.view-plan h2 {
+    font-size: 3rem; 
+    color: #0a4076; 
 }
 
-.view-plan h1{
-    font-size: 2.3rem;
+.view-plan h1 {
+    font-size: 2.5rem; 
     flex: 1;
-    margin: auto;
+    margin: 0 auto; 
+    text-align: center; 
 }
 
-.food-info{
+/* Container for Food Information */
+.food-info {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between; 
+    align-items: center; 
     padding: 1rem;
-    color: #292929;
-    border: 5px black solid;
-    border-radius: 1rem;
-    margin: 2rem;
-    width: auto;
-    height: 4rem;
+    color: #292929; 
+    border: 2px solid #4a4a4a;
+    border-radius: 10px; 
+    margin: 2rem; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 
-.food-info p{
-    justify-content: flex-end;   
-    font-size: 2rem;
-    margin: auto 4rem;
+/* Paragraphs within Food Information */
+.food-info p {
+    font-size: 1.8rem; 
+    margin: 0 2rem; 
 }
 
-.food-info button{
-    font-size: 1.5rem;
-    background-color: rgba(255, 0, 0, 0.822);
-    border: 3px black solid;
-    height: 3rem;
-    margin: auto auto;
+/* Button Styles in Food Information */
+.food-info button {
+    font-size: 0.75rem;
+    background-color: #e63946; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 0.5rem 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.1s; 
+    text-align: center; 
+    line-height: 1.5; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    white-space: nowrap; 
+}
+
+.food-info button:hover, .food-info button:focus {
+    background-color: #d62839; 
+    transform: scale(1.05); 
+    outline: none; 
 }
